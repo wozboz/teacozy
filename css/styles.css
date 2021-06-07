@@ -113,4 +113,47 @@ nav ul a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
+}
+
+.featuredbox h3 {
+    margin-top: 10px;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    /*flex-flow: row wrap;*/
+    background-image: url("../images/img-locations-background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    max-width: 1200px;
+}
+
+.alllocations {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: row wrap;
+}
+
+#locationtitle {
+    margin-bottom: 15px;
+}
+
+.locationdiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin-left: 40px;
+    max-height: 250px;
+}
+
+.locationdiv p {
+    margin: 20px 20px;
 }
