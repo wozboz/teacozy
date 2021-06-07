@@ -17,6 +17,12 @@ html {
 
 main {
     margin-top: 69px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 nav {
@@ -27,21 +33,29 @@ nav {
     z-index: 5;
     height: 69px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
+    align-items: center;
     background-color: black;
     opacity: 0.7;
     width: 100%;
     top: 0;
 }
 
-#logo {
-    margin-left: 10px;
-    height: 50px;
+nav ul {
+    display: inline-flex;
+    align-items: center;
+    list-style-type: none;
+    padding-right: 20px;
 }
 
-a {
+nav ul a {
+    margin-left: 10px;
     text-decoration: underline;
-    float: right;
+}
+
+#logo {
+    padding-left: 10px;
+    height: 50px;
 }
 
 #banner {
@@ -50,29 +64,53 @@ a {
     background-position: center;
     background-size: cover;
     height: 700px;
-    margin: 20 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    max-width: 1200px;
 }
 
 #banner div {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    flex-direction: column;
     background-color: black;
     opacity: 0.9;
     width: 100%;
 }
 
-nav ul {
-    display: inline-flex;
+.gallery {
+    margin-top: 15px;
+    max-width: 1000px;
+    display: flex;
+    flex-flow: column;
     align-items: center;
-    list-style-type: none;
+    justify-content: space-around;
 }
 
-nav ul a {
-    margin-left: 10px;
+.gallery .galleryheader {
+    margin: 20px;
+}
+
+.gallery .galleryheader h3 {
+    margin-top: 20px;
+}
+
+.gallery img{
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.galleryfeatured {
+    display: inline-flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.featuredbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
