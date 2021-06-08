@@ -53,6 +53,7 @@ nav ul {
 nav ul a {
     margin-left: 10px;
     text-decoration: underline;
+    color: seashell;
 }
 
 #logo {
@@ -82,6 +83,11 @@ nav ul a {
     background-color: black;
     opacity: 0.9;
     width: 100%;
+    padding: 15px;
+}
+
+#banner div h4 {
+    margin-top: 20px;
 }
 
 /*gallery section*/
@@ -188,3 +194,25 @@ footer {
 }
 
 /*media queries for mobile compatibility*/
+@media only screen and (max-width: 1050px) {
+    .locations {
+        height: auto;
+    }
+    #locationtitle {
+        margin-top: 20px;
+    }
+    .locationdiv {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    nav {
+        padding: 10px;
+        height: auto;
+    }
+    #logo {
+        margin-bottom: 10px;
+    }
+}
