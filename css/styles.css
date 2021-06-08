@@ -131,13 +131,14 @@ nav ul a {
     background-size: cover;
     height: 500px;
     max-width: 1200px;
+    margin-top: 40px;
 }
 
-.alllocations {
+.alllocations {    
     display: flex;
-    justify-content: space-around;
-    align-content: center;
     flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-around;
 }
 
 #locationtitle {
@@ -147,13 +148,20 @@ nav ul a {
 .locationdiv {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
     max-width: 300px;
     background-color: black;
     opacity: 1;
     margin-left: 40px;
-    max-height: 250px;
+    width: 300px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .locationdiv p {
+    margin: 20px 20px;
+}
+.locationdiv h3 {
     margin: 20px 20px;
 }
