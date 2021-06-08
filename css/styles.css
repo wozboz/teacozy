@@ -25,6 +25,8 @@ main {
     flex-direction: column;
 }
 
+/*navigation section*/
+
 nav {
     position: fixed;
     display: flex;
@@ -58,6 +60,8 @@ nav ul a {
     height: 50px;
 }
 
+/*banner section*/
+
 #banner {
     background-repeat: no-repeat;
     background-image: url("../images/img-mission-background.jpg");
@@ -79,6 +83,8 @@ nav ul a {
     opacity: 0.9;
     width: 100%;
 }
+
+/*gallery section*/
 
 .gallery {
     margin-top: 15px;
@@ -120,6 +126,7 @@ nav ul a {
     margin-top: 10px;
 }
 
+/* location section */
 .locations {
     display: flex;
     justify-content: center;
@@ -165,3 +172,19 @@ nav ul a {
 .locationdiv h3 {
     margin: 20px 20px;
 }
+
+.contact {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+/*media queries for mobile compatibility*/
